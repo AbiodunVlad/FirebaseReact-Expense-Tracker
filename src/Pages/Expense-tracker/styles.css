@@ -1,0 +1,105 @@
+.expense-tracker {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  /* align-items: center; */
+  color: #023047;
+  padding-top: 20px;
+}
+
+.profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 50px;
+  /* width: 30%; */
+  /* justify-content: center; */
+  /* margin-left: 200px; */
+}
+.profile-photo {
+  width: 50px;
+  border-radius: 50%;
+  margin: 0;
+}
+
+.sign-out-button {
+  border: none;
+  margin-top: 10px;
+  width: 200px;
+  background: #3498db;
+  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+  border-radius: 10px;
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+
+.sign-out-button:hover {
+  background: #3cb0fd;
+
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-right: 100px;
+}
+
+.expense-tracker h1 {
+  font-size: 15px;
+}
+
+.balance h3 {
+  font-size: 10px;
+}
+
+.label {
+  margin-right: 10px;
+}
+
+.expense-tracker button {
+  /* margin-left: 10px; */
+
+  border: none;
+  width: 150px;
+  background: #3498db;
+  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+  border-radius: 10px;
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 10px 20px;
+  text-decoration: none;
+
+  margin-top: 10px;
+}
+
+.add-transaction {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.radios {
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+}
+
+.transactions {
+  /* margin-left: 430px; */
+  margin-top: 20px;
+  /* padding-left: 10px; */
+  width: 600px;
+  height: 400px;
+  overflow: hidden;
+  border: 3px solid #023047;
+}
